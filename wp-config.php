@@ -1,4 +1,12 @@
 <?php
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
+
+define( 'ITSEC_ENCRYPTION_KEY', 'IzUmUWA1YTZBcmtdSjpDeXFIWCt3RzI1Vy9LUyQ1QH5Sc3QkdHslLXB2Ky04MTlybHx5I1EmKnlrOz9tfnBAYg==' );
+
 /**
  * The base configuration for WordPress
  *

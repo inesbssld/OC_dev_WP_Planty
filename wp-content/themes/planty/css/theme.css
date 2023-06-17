@@ -21,6 +21,8 @@ body * {
    /* height: 100%;
 height: -webkit-fill-available;
  font-size: 16px;*/}
+
+
 #menu-item-54{
    background-color: #DC9F96;
     /* height: 100%;
@@ -28,10 +30,34 @@ height: -webkit-fill-available;
     display: flex;
     color: white;*/
 }
+#menu-item-54:hover{
+     background-color: #C02E44;
+}
+
+
 #menu-item-54 a{
     color: white;
     font-weight: 700;
 }
+
+
+#menu-item-53 a:hover,
+.lien_admin a:hover
+{
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+#menu-item-39 a:hover{
+
+    font-size: 13px !important;
+    font-weight: 700;
+    color: black;}
+
+
+
+
 .lien_admin a{
     text-decoration: none;
     margin-right: 60px;
