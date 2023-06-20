@@ -64,6 +64,19 @@ height: -webkit-fill-available;
     margin-left: 60px;
 }
 
+
+/*ACCUEIL*/
+
+
+.btn_accueil{
+color: red;
+width: 198px;
+height: 55px;
+}
+
+
+
+
 .footer-navigation ul .lien_admin{
     display: none;
 }
