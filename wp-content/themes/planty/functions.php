@@ -14,13 +14,13 @@ function theme_enqueue_styles(){
 
 
 /**
- * Add Menu Item to a specific place in the menu
+ * Ajout du lien Admin
  */
 function ajouter_lien_admin($items, $args) {
     // Vérifier si l'utilisateur est connecté et a le rôle d'administrateur
     if (is_user_logged_in() && current_user_can('administrator')) {
 
-            if ($args->theme_location !== 'footer-menu') {
+            if ($args->theme_location !== 'kadence_footer') {
 
         // Ajouter l'élément de menu
         $element_menu = '<li class="lien_admin"><a href="#">Admin</a></li>';
