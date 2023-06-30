@@ -1,219 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
-
-  /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+/* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
 body * {
-   font-family: 'Syne', sans-serif;
-
+  font-family: "Syne", sans-serif;
 }
 
-
+/*****************/
 /*HEADER*/
-#main-header .site-container{
-    padding: 0;
-    margin: 0;
-}
-.header-html-inner{
-    font-weight: 600;
+/*****************/
 
+#main-header .site-container {
+  padding: 0;
+  margin: 0;
 }
 
-
-#menu-item-54{
-   background-color: #DC9F96;
-    /* height: 100%;
-    align-items: center;
-    display: flex;
-    color: white;*/
-}
-#menu-item-54:hover{
-     background-color: #C02E44;
+.header-html-inner {
+  font-weight: 600;
 }
 
-
-#menu-item-54 a{
-    color: white;
-    font-weight: 700;
+#menu-item-54 {
+  background-color: #dc9f96;
 }
 
+#menu-item-54:hover {
+  background-color: #c02e44;
+}
+
+#menu-item-54 a {
+  color: white;
+  font-weight: 700;
+}
 
 #menu-item-53 a:hover,
-.lien_admin a:hover
-{
-    font-size: 13px;
-    font-weight: 700;
-    color: black;
+.lien_admin a:hover {
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
 }
 
-#menu-item-39 a:hover{
-
-    font-size: 13px !important;
-    font-weight: 700;
-    color: black;}
-
-
-
-
-.lien_admin a{
-    text-decoration: none;
-    margin-right: 60px;
-    margin-left: 60px;
+#menu-item-39 a:hover {
+  font-size: 13px !important;
+  font-weight: 700;
+  color: black;
 }
 
+.lien_admin a {
+  text-decoration: none;
+  margin-right: 60px;
+  margin-left: 60px;
+}
 
+/*****************/
 /*ACCUEIL*/
+/*****************/
 
-.is-style-fill >a{
-    width: 198px !important;
-    height: 55px !important;
-    padding-top: 15px !important;
-}
-.is-style-fill:hover{
-
-    background: #C02E44 !important;
-    border-radius: 5px;
-
-}
-.titre_accueil{
-    width: 781px;
-    margin: 0 auto;
+.is-style-fill > a {
+  width: 198px !important;
+  height: 55px !important;
+  padding-top: 15px !important;
 }
 
+.is-style-fill:hover {
+  background: #c02e44 !important;
+  border-radius: 5px;
+}
 
+.titre_accueil {
+  width: 781px;
+  margin: 0 auto;
+}
 
-
+/*****************/
 /*NOUS RENCONTRER*/
+/*****************/
 
+/*essai responsif fleur */
+.titre_fleur {
+  position: relative;
+  margin-top: 80px;
+}
+
+.titre_fleur img {
+  position: absolute;
+  left: 12%;
+  top: 3%;
+  max-width: 13%;
+  height: auto;
+}
 /*formulaire*/
 
-
 #wpcf7-f260-p27-o1 .wpcf7-form {
-margin: 45px auto;
-width: 383px;
-position: relative;
-
-
-    }
-.wpcf7-form ::after{
-  content: '';
-  /*background-image: url('wp-content/themes/planty/image/fleur_bg_form.png');*/
-  background-image: url('wp-content/themes/planty/image/banniere-image 2.webp');
-
-
-
-  background-size: cover;
-  display: block;
-  position: absolute;
-  top: 48%;
-  left: -153px;
-  width: 100%;
-  height: 200px;
-  background-position: -250%;
-  background-repeat: no-repeat;
-  z-index:-1;
-
-
+  margin: 45px auto;
+  width: 383px;
+  position: relative;
+  text-align: left;
+  z-index: 1;
 }
 
+.img_bg_form {
+  position: absolute;
+  width: 50%;
+  margin-top: -273px;
+  margin-left: -86px;
+  z-index: -1;
+}
 
 #wpcf7-f260-p27-o1 .wpcf7-submit {
-display: flex;
-justify-content: center;
-margin: 0 auto;
-width: 198px;
-height: 55px;
-background: #E0B9B4;
-color: white;
-padding: 15px 0;             /* marge interne de 15 pixels en haut et en bas et de 0 pixel à droite et à gauche */
-font-size: 15px;
-font-weight: 400;
-border-radius: 5px;
-transition: .3s ease-in-out; /* animation de transition, dans ce cas pour la transition de couleur d’arrière-plan en mode survol */
-    }
-
-#wpcf7-f260-p27-o1 .wpcf7-text{
-width: 383px;
-height: 71px;
-background: #FFFFFF;
-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
-border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 198px;
+  height: 55px;
+  background: #e0b9b4;
+  color: white;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
 }
 
-#wpcf7-f260-p27-o1 .wpcf7-textarea{
-width: 383px;
-height: 237px;
-background: #FFFFFF;
-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
-border-radius: 7px;
-
-
+#wpcf7-f260-p27-o1 .wpcf7-text {
+  width: 383px;
+  height: 71px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+  border-radius: 7px;
 }
-.bg_fleur{
-    margin-top: -250px;
-    margin-right: 350px;
-    z-index: -97;
-    position: relative;
-}
-.feuille_og img{
-    width: 191.21px;
-    height: 219.08px;
-    margin-bottom: -81px;
-    margin-left: 125px;
-    margin-top: -162px;
 
+#wpcf7-f260-p27-o1 .wpcf7-textarea {
+  width: 383px;
+  height: 237px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+  border-radius: 7px;
 }
+
+.feuille_og img {
+  width: 105%;
+  height: auto;
+  margin-bottom: -214% !important;
+  margin-left: 130px;
+  margin-top: -217px;
+  bottom: -41px;
+  position: relative;
+}
+
+.kadence-column_3aa59e-44 {
+  margin-bottom: -15px;
+}
+
+/************/
 /* PAGE COMMANDER*/
+/************/
 
 .page-id-25 #primary {
-    background: #3B8E46 !important;
+  background: #3b8e46 !important;
 }
 
-.images_container{
-    gap:25px;
+.images_container {
+  gap: 25px;
 }
- .image {
-    min-width: 192px ;
+
+.image {
+  min-width: 192px;
 }
 
 /* SEPARATEUR*/
 
-
-hr.wp-block-separator.is-style-wide{height: 0.5px !important;}
-
+hr.wp-block-separator.is-style-wide {
+  height: 0.5px !important;
+}
 
 /*formulaire quantite*/
 
-#wpcf7-f376-p25-o1 .form_quantite{
-width: 842px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-flex-wrap: wrap;
-margin: 0;
-
+#wpcf7-f376-p25-o1 .form_quantite {
+  width: 842px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
-.quantite{
-    display: flex;
-    gap: 10px;
-    width: 192px;
+.quantite {
+  display: flex;
+  gap: 10px;
+  width: 192px;
 }
 
 .quantite input[type="number"] {
-    width: 82px;
-    height: 56px;
-    background-image: url(/planty/wp-content/themes/planty/image/input.png);
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
-    border-radius: 5px;
-    border-right: 1px solid;
-    position: relative;
-    z-index: 999;
-    background-size: cover;
-    background-color: transparent;
-    border: none;
-
+  width: 82px;
+  height: 56px;
+  background-image: url(/planty/wp-content/themes/planty/image/input.png);
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  border-right: 1px solid;
+  position: relative;
+  z-index: 999;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
 }
-
 
 .quantite input[type="submit"] {
   width: 100px;
@@ -222,344 +209,790 @@ margin: 0;
   color: white;
 }
 
-.quantite img{
-    height:56px;
-    width: 31px;
+.quantite img {
+  height: 56px;
+  width: 31px;
 }
 
-/* Styliser les flèches du input de type number */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none; /* Désactiver l'apparence par défaut des flèches */
+  -webkit-appearance: none;
+  /* Désactiver l'apparence par défaut des flèches */
   appearance: none;
 }
 
-
 /*formulaire livraison*/
 
-#wpcf7-f322-p25-o1{
-
-    display: flex;
+#wpcf7-f322-p25-o1 {
+  display: flex;
 }
 
-#formulaire{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+#formulaire {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#formulaire .section_1{
-    border-right: 1px solid white;
-    padding-right: 70px;
+#formulaire .section_1 {
+  border-right: 1px solid white;
+  padding-right: 70px;
 }
 
-#formulaire label{
-    font-size: 20px;
-    font-weight: 400;
-    color: white;
-
+#formulaire label {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
 }
 
 #formulaire input {
-background: #FFFFFF;
-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
-border-radius: 7px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+  border-radius: 7px;
 }
-
-
 
 #wpcf7-f322-p25-o2 input[type="submit"] {
-display: block;
-margin: 40px auto;
-width: 198px;
-height: 55px;
-color: white;
-background: #E0B9B4;
-border-radius: 5px;
+  display: block;
+  margin: 40px auto;
+  width: 198px;
+  height: 55px;
+  color: white;
+  background: #e0b9b4;
+  border-radius: 5px;
 }
 
-#wpcf7-f322-p25-o2 input[type="submit"]:hover{
-    background: #C02E44;
+#wpcf7-f322-p25-o2 input[type="submit"]:hover {
+  background: #c02e44;
 }
 
-
-
-
+/*****************/
 /*FOOTER*/
-.footer-navigation ul .lien_admin{
-    display: none;
+/*****************/
+
+.footer-navigation ul .lien_admin {
+  display: none;
 }
 
-
-
-
+/*****************/
 /* MEDIA QUERIES*/
+/*****************/
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  /*ACCUEIL*/
+  .titre_accueil {
+    font-size: 1.2em !important;
+    margin: 0 auto !important;
+    width: 100%;
+  }
+  .image_accueil > figure > .wp-image-165 {
+    margin-left: -86px !important;
+    max-width: 151% !important;
+  }
+  h2.titre_accueil_02,
+  h2.testimonial_title {
+    font-size: 1.35em !important;
+  }
+  .row_title {
+    margin-top: 40px !important;
+  }
+  .kadence-column_580ff1-20 p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 18px !important;
+  }
 
-
-@media screen and (min-width: 380px) and (max-width: 767px) {
-
-
-.row_title{
-    margin-top:50px !important;
-}
-
-     .titre_accueil{
-        font-size: 1.25em !important;
-        margin: 0 auto !important;
-        width: 100%;
-
-
-}
- h2.titre_accueil_02, h2.testimonial_title {
-    font-size: 1.75em !important;
- }
-
-.titre_banniere{
-    font-size: 2.25rem !important;
-}
-
-
-.testimonial_column{
+  .titre_banniere {
+    font-size: 1.5em !important;
+  }
+  .testimonial_column {
     width: 100%;
     padding-right: 0 !important;
     padding-left: 0 !important;
-}
+  }
 
-.full_width {
+  .full_width {
     width: 100% !important;
     padding: 0;
-}
+  }
 
-.kb-row-layout-id_b9b7ff-8c > .kt-row-column-wrap {padding: 0 !important;}
+  .kb-row-layout-id_b9b7ff-8c > .kt-row-column-wrap {
+    padding: 0 !important;
+  }
 
-
-.testimonial_title{
+  .testimonial_title {
     padding-top: 40px !important;
-}
-.testimonial_media >figure >img {
+  }
+
+  .testimonial_media > figure > img {
     width: 50% !important;
-    margin:0 auto !important;
+    margin: 0 auto !important;
     padding-bottom: 35px !important;
+  }
 
-}
-.testimonial_name{padding-top: 10px !important;
-text-align: center;
-font-size: 1.75em !important;}
-.testimonial_text{padding-bottom: 20px !important;
-text-align: center;
-font-size: 1.25em;}
+  .testimonial_name {
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: 1.75em !important;
+  }
 
-img.kb-img.wp-image-393{margin-top: -60px !important;}
+  .testimonial_text {
+    padding-bottom: 20px !important;
+    text-align: center;
+    font-size: 1.25em;
+  }
 
+  img.kb-img.wp-image-393 {
+    margin-top: -60px !important;
+  }
 
-/*FOOTER*/
-
-.site-middle-footer-inner-wrap {
-
-
+  .site-middle-footer-inner-wrap {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
+    grid-row-gap: 0px !important;
+  }
 
-   grid-row-gap: 0px !important;
+  /* NOUS CONTACTER*/
 
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -160px;
+  }
 
-}
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 1.325em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
 
+  .rencontrer_top_flower > figure > img {
+    width: 50% !important;
+    width: 50% !important;
+    position: relative;
+    left: -74px;
+    top: -68px;
+  }
 
-}
+  .feuille_og img {
+    margin-left: 94px;
+  }
 
-@media screen and (min-width: 782px) and (max-width: 869px) {
-  /* Vos styles CSS pour cette plage de largeur d'écran */
-  .titre_banniere{
-    font-size: 1.99rem !important;
-}
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    width: 294px;
+  }
 
-.testimonial_name{
-    text-align: center;
-    margin-top: 20px !important;
-}
+  .img_bg_form {
+    position: absolute;
+    width: 28%;
+    margin-left: -23px;
+    margin-top: -150px;
+    z-index: -1;
+  }
 
-.testimonial_text{
-    text-align: center;
-    font-size: 1em !important;
-}
+  /*COMMANDER*/
 
+  .titre_commander {
+    padding-top: 38px !important;
+    padding-bottom: 46px !important;
+    font-size: 1.325em !important;
+    color: white !important;
+  }
 
-.testimonial_media{
+  .votre_commande {
+    text-align: center !important;
+    font-size: 1.5em !important;
+    padding-top: 0px !important;
+  }
+
+  /*Formulaire Commander quantite*/
+
+  #wpcf7-f322-p25-o1 {
+    display: flex;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 60px;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite {
+    width: 100%;
     display: flex;
     flex-direction: column;
-}
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
 
-.testimonial_media >figure >img {
-    width: 50% !important;
-    margin:0 auto !important;
-    padding-bottom: 35px !important;
+  #wpcf7-f376-p25-o1 .form_quantite .label {
+    color: white;
+    padding-bottom: 10px;
+  }
 
-}
+  .quantite {
+    display: flex;
+    gap: 10px;
+    width: 192px;
+  }
+  .wpcf7-f260-p27-o1 .wpcf7-text {
+    width: 100%;
+  }
 
-}
+  #wpcf7-f260-p27-o1 .wpcf7-textarea {
+    width: 100%;
+  }
 
-@media screen and (min-width: 870px) and (max-width: 1024px) {
+  /*fomulaire commander livraison*/
 
-  /* Vos styles CSS pour cette plage de largeur d'écran */
-
-  .titre_banniere{
-    font-size: 2.25rem !important;
-}
-
-.testimonial_media{
+  #formulaire {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #formulaire .section_1 {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+  }
+
+  #formulaire .section_2 {
+    margin-top: 25px !important;
+  }
+
+  #formulaire label {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+
+  #formulaire input {
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background: #e0b9b4;
+    border-radius: 5px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"]:hover {
+    background: #c02e44;
+  }
 }
 
-.testimonial_name{
-    text-align: center;
-    margin-top: 20px !important;
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  #formulaire .section_1 {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    margin: 0 auto;
+  }
+
+  #formulaire .section_2 {
+    margin-top: 25px !important;
+    margin: 0 auto;
+  }
 }
 
-.testimonial_text{
-    text-align: center;
-    font-size: 1em !important;
-}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  /*ACCUEIL*/
 
+  .row_title {
+    margin-top: 50px !important;
+  }
 
+  .titre_accueil {
+    font-size: 1.25em !important;
+    margin: 0 auto !important;
+    width: 100%;
+  }
 
-.testimonial_media >figure >img {
-    width: 50% !important;
-    margin:0 auto !important;
-    padding-bottom: 35px !important;
+  .image_accueil > figure > .wp-image-165 {
+    margin-left: -27% !important;
+    max-width: 151% !important;
+  }
 
+  h2.titre_accueil_02,
+  h2.testimonial_title {
+    font-size: 1.7em !important;
+  }
 
-}
+  .titre_banniere {
+    font-size: 1.5em !important;
+  }
 
+  .testimonial_column {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 
-
-
-}
-
-
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Styles appliqués pour les écrans dont la largeur est entre 768px et 1024px */
-
-/*ACCUEIL*/
-
-
-.wp-block-kadence-rowlayout .kt-row-column-wrap.kb-theme-content-width{
+  .full_width {
+    width: 100% !important;
     padding: 0;
+  }
+
+  .kb-row-layout-id_b9b7ff-8c > .kt-row-column-wrap {
+    padding: 0 !important;
+  }
+
+  .testimonial_title {
+    padding-top: 40px !important;
+  }
+
+  .testimonial_media > figure > img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+
+  .testimonial_name {
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: 1.75em !important;
+  }
+
+  .testimonial_text {
+    padding-bottom: 20px !important;
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  img.kb-img.wp-image-393 {
+    margin-top: -60px !important;
+  }
+
+  /* NOUS CONTACTER*/
+
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -160px;
+  }
+
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 1.625em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
+
+  .rencontrer_top_flower > figure > img {
+    width: 50% !important;
+    width: 50% !important;
+    position: relative;
+    left: -137px;
+    top: -68px;
+  }
+
+  .feuille_og img {
+    margin-left: 69px;
+  }
+
+  .img_bg_form {
+    position: absolute;
+    width: 30%;
+    margin-top: -152px;
+    margin-left: -25px;
+    z-index: -1;
+  }
+
+  /*COMMANDER*/
+
+  .titre_commander {
+    padding-top: 38px !important;
+    padding-bottom: 46px !important;
+    font-size: 1.625em !important;
+    color: white !important;
+  }
+
+  .votre_commande {
+    text-align: center !important;
+    font-size: 1.5em !important;
+    padding-top: 0px !important;
+  }
+
+  /*Formulaire Commander quantite*/
+
+  #wpcf7-f322-p25-o1 {
+    display: flex;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 60px;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite .label {
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .quantite {
+    display: flex;
+    gap: 10px;
+    width: 192px;
+  }
+  .wpcf7-f260-p27-o1 .wpcf7-text {
+    width: 100%;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-textarea {
+    width: 100%;
+  }
+
+  /*fomulaire commander livraison*/
+
+  #formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #formulaire .section_1 {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+  }
+
+  #formulaire .section_2 {
+    margin-top: 25px !important;
+  }
+
+  #formulaire label {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+
+  #formulaire input {
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background: #e0b9b4;
+    border-radius: 5px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"]:hover {
+    background: #c02e44;
+  }
+
+  /*FOOTER*/
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    grid-row-gap: 0px !important;
+  }
 }
 
-.testimonial_column{
+/*
+@media screen and (min-width: 782px) and (max-width: 869px) {
+
+  .titre_banniere {
+    font-size: 1.99rem !important;
+  }
+
+  .testimonial_name {
+    text-align: center;
+    margin-top: 20px !important;
+  }
+
+  .testimonial_text {
+    text-align: center;
+    font-size: 1em !important;
+  }
+
+  .testimonial_media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial_media > figure > img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+}
+
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*ACCUEIL*/
+
+  .wp-block-kadence-rowlayout .kt-row-column-wrap.kb-theme-content-width {
+    padding: 0;
+  }
+
+  .testimonial_column {
     width: 100%;
     padding-right: 20px !important;
     padding-left: 20px !important;
-}
+  }
 
-.testimonial_title{
-    padding-top:80px !important;
-}
+  .testimonial_title {
+    padding-top: 80px !important;
+  }
 
-.testimonial_name{
+  .testimonial_name {
     font-size: 2.25em !important;
-    /*margin-top: -25px !important;*/
-}
+  }
 
-.testimonial_text{
+  .testimonial_text {
     font-size: 1em !important;
-}
+  }
 
-.testimonial_media >figure >img {
+  .testimonial_media > figure > img {
     width: 50% !important;
-    margin:0 auto !important;
+    margin: 0 auto !important;
     padding-bottom: 35px !important;
+  }
 
-}
-.testimonial_media{padding-bottom: 30px !important;}
+  .testimonial_media {
+    padding-bottom: 30px !important;
+  }
 
-h1.titre_accueil{
-        font-size: 2.3rem !important;
-        width: 90%;
-        margin: 0 auto !important;
+  h1.titre_accueil {
+    font-size: 2.3rem !important;
+    width: 90%;
+    margin: 0 auto !important;
+  }
 
-}
-
- h2.titre_accueil_02, h2.testimonial_title {
+  h2.titre_accueil_02,
+  h2.testimonial_title {
     font-size: 2.3em !important;
- }
+  }
 
-
-.wp-block-buttons.is-vertical>.wp-block-button:last-child{
+  .wp-block-buttons.is-vertical > .wp-block-button:last-child {
     margin-bottom: 30px !important;
-}
+  }
 
+  .kb-row-layout-wrap.wp-block-kadence-rowlayout.kb-row-layout-id_835858-64 {
+    margin-top: -150px !important;
+  }
 
-.kb-row-layout-wrap.wp-block-kadence-rowlayout.kb-row-layout-id_835858-64{
-        margin-top: -150px !important;
-}
+  /*NOUS RENCONTRER*/
 
-/*.wp-block-kadence-image.kb-image_15f479-84:not(.kb-specificity-added):not(.kb-extra-specificity-added) {
-    margin-top: -45px !important;
-}*/
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -100px;
+  }
 
-/*FOOTER*/
-
-.site-middle-footer-inner-wrap {
-
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 2.125em !important;
     padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
 
-   grid-row-gap: 0px !important;
-}
-}
+  .rencontrer_text {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
 
-@media screen and (min-width: 1025px) {
+  .rencontrer_top_flower > figure > img {
+    width: 57% !important;
+    position: relative;
+    left: -544px;
+    top: -16px;
+  }
 
-.testimonial_column {
+  .feuille_og img {
+    margin-left: 69px;
+  }
+
+  .kadence-column_b126e6-3d > .kt-inside-inner-col {
+    background-size: 26% auto !important;
+    background-position: 17% 80% !important;
+  }
+
+  /* formulaire*/
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    margin: 0 auto;
+    /*width: 50%;*/
+    margin-bottom: 60px;
+  }
+
+  /*COMMANDER */
+
+  #wpcf7-f376-p25-o1 {
+    width: 99%;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite {
     width: 100%;
-    /*padding-right: 50px !important;
-    padding-left: 50px !important;*/
-}
-.testimonial_title{
-    padding-top:80px !important;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quantite {
+    display: flex;
+    gap: 10px;
+    width: 162px;
+    /*width:23%*/
+  }
+
+  .quantite input[type="number"] {
+    width: 95px;
+  }
+
+  .quantite input[type="submit"] {
+    width: 65px;
+  }
+
+  /*formulaire Livraison*/
+
+  #formulaire .section_1 {
+    width: 50%;
+    padding-right: 30px;
+  }
+
+  #formulaire .section_2 {
+    width: 50%;
+    padding-left: 30px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"] {
+    margin-top: 80px !important;
+  }
+
+  /*FOOTER*/
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0 !important;
+    grid-row-gap: 0px !important;
+  }
 }
 
-.testimonial_name{
+@media screen and (min-width: 1024px) {
+  .testimonial_column {
+    width: 100%;
+  }
+
+  .testimonial_title {
+    padding-top: 80px !important;
+  }
+
+  .testimonial_name {
     font-size: 1.35em !important;
     margin-top: -25px !important;
-}
+  }
 
-.testimonial_text{
+  .testimonial_text {
     font-size: 1em !important;
-}
+  }
 
-
-
-.testimonial_media >figure >img {
+  .testimonial_media > figure > img {
     width: 100% !important;
-    margin:0 auto !important;
+    margin: 0 auto !important;
     padding-bottom: 35px !important;
+  }
 
-}
-.testimonial_media{padding-bottom: 30px !important;}
+  .testimonial_media {
+    padding-bottom: 30px !important;
+  }
 
+  /*NOUS RENCONTRER*/
+  /*
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -100px;
+  }
 
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 2.125em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
+
+  .rencontrer_text {
+    width: 72%;
+    margin: 0 auto;
+    margin-top: -25px !important;
+  }
+
+  .rencontrer_top_flower > figure > img {
+    width: 57% !important;
+    position: relative;
+    left: -682px;
+    top: -16px;
+  }
+
+  .feuille_og img {
+    margin-left: 69px;
+  }
+
+  .kadence-column_b126e6-3d > .kt-inside-inner-col {
+    background-size: 15% auto !important;
+    background-position: 29% 82% !important;
+  }
+/**/
+
+  .kadence-column_b126e6-3d > .kt-inside-inner-col {
+    background-size: 14% auto;
+    background-position: 36% 82%;
+  }
+
+  /*FOOTER*/
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0 !important;
+    grid-row-gap: 0px !important;
+  }
 }
 
 @media screen and (min-width: 1219px) and (max-width: 1400px) {
-
-
-  .gout_section, .kadence-column_5b93be-9c{
+  .gout_section,
+  .kadence-column_5b93be-9c {
     margin-left: 18% !important;
     margin-right: 18% !important;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1219px) {
-
-
-  .gout_section, .kadence-column_5b93be-9c{
+  .gout_section,
+  .kadence-column_5b93be-9c {
     margin-left: 12% !important;
     margin-right: 11% !important;
+  }
+}
+
+/* affichage des label du formulaire uniquement sur mobile*/
+@media screen and (min-width: 764px) {
+  .form_quantite .label {
+    display: none;
   }
 }
