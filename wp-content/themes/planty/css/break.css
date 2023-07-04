@@ -1,0 +1,791 @@
+*/
+/*****************/
+/* MEDIA QUERIES*/
+/****************
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  /*ACCUEIL*/
+  .titre_accueil {
+    font-size: 1.2em !important;
+    margin: 0 auto !important;
+    width: 100%;
+  }
+  .image_accueil > figure > .wp-image-165 {
+    margin-left: -86px !important;
+    max-width: 151% !important;
+  }
+  h2.titre_accueil_02,
+  h2.testimonial_title {
+    font-size: 1.35em !important;
+  }
+  .row_title {
+    margin-top: 40px !important;
+  }
+  .kadence-column_580ff1-20 p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 18px !important;
+  }
+
+  .titre_banniere {
+    font-size: 1.5rem !important;
+  }
+  .testimonial_column {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .full_width {
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .kb-row-layout-id_b9b7ff-8c > .kt-row-column-wrap {
+    padding: 0 !important;
+  }
+
+  .testimonial_title {
+    padding-top: 40px !important;
+  }
+
+  .testimonial_media > figure > img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+
+  .testimonial_name {
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: 1.75em !important;
+  }
+
+  .testimonial_text {
+    padding-bottom: 20px !important;
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  img.kb-img.wp-image-393 {
+    margin-top: -60px !important;
+  }
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    grid-row-gap: 0px !important;
+  }
+
+  /* NOUS CONTACTER*/
+
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -160px;
+  }
+
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 1.325em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
+
+  .rencontrer_top_flower > figure > img {
+    width: 50% !important;
+    width: 50% !important;
+    position: relative;
+    left: -74px;
+    top: -68px;
+  }
+
+  .feuille_og img {
+    margin-left: 94px;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    width: 294px;
+  }
+
+  .img_bg_form {
+    position: absolute;
+    width: 28%;
+    margin-left: -23px;
+    margin-top: -150px;
+    z-index: -1;
+  }
+
+
+
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 60px;
+  }
+
+
+
+  /*COMMANDER*/
+
+  .titre_commander {
+    padding-top: 38px !important;
+    padding-bottom: 46px !important;
+    font-size: 1.325em !important;
+    color: white !important;
+  }
+
+  .votre_commande {
+    text-align: center !important;
+    font-size: 1.5em !important;
+    padding-top: 0px !important;
+  }
+
+  /*Formulaire Commander quantite*/
+
+
+ #wpcf7-f322-p25-o1 {
+    display: flex;
+  }
+  #wpcf7-f376-p25-o1 .form_quantite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite .label {
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .quantite {
+    display: flex;
+    gap: 10px;
+    width: 192px;
+  }
+  .wpcf7-f260-p27-o1 .wpcf7-text {
+    width: 100%;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-textarea {
+    width: 100%;
+  }
+
+  /*fomulaire commander livraison*/
+
+  #formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #formulaire .section_1 {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+  }
+
+  #formulaire .section_2 {
+    margin-top: 25px !important;
+  }
+
+  #formulaire label {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+
+  #formulaire input {
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background: #e0b9b4;
+    border-radius: 5px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"]:hover {
+    background: #c02e44;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  #formulaire .section_1 {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+    margin: 0 auto;
+  }
+
+  #formulaire .section_2 {
+    margin-top: 25px !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  /*ACCUEIL*/
+
+  .row_title {
+    margin-top: 50px !important;
+  }
+
+  .titre_accueil {
+    font-size: 1.25em !important;
+    margin: 0 auto !important;
+    width: 100%;
+  }
+
+  .image_accueil > figure > .wp-image-165 {
+    margin-left: -27% !important;
+    max-width: 151% !important;
+  }
+
+  h2.titre_accueil_02,
+  h2.testimonial_title {
+    font-size: 1.7em !important;
+  }
+
+  .titre_banniere {
+    font-size: 1.5em !important;
+  }
+
+  .testimonial_column {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .full_width {
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .kb-row-layout-id_b9b7ff-8c > .kt-row-column-wrap {
+    padding: 0 !important;
+  }
+
+  .testimonial_title {
+    padding-top: 40px !important;
+  }
+
+  .testimonial_media > figure > img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+
+  .testimonial_name {
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: 1.75em !important;
+  }
+
+  .testimonial_text {
+    padding-bottom: 20px !important;
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  img.kb-img.wp-image-393 {
+    margin-top: -60px !important;
+  }
+
+  /* NOUS CONTACTER*/
+
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -160px;
+  }
+
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 1.625em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
+
+  .rencontrer_top_flower > figure > img {
+    width: 50% !important;
+    width: 50% !important;
+    position: relative;
+    left: -137px;
+    top: -68px;
+  }
+
+  .feuille_og img {
+    margin-left: 69px;
+  }
+
+  .img_bg_form {
+    position: absolute;
+    width: 30%;
+    margin-top: -152px;
+    margin-left: -25px;
+    z-index: -1;
+  }
+
+  /*COMMANDER*/
+
+  .titre_commander {
+    padding-top: 38px !important;
+    padding-bottom: 46px !important;
+    font-size: 1.625em !important;
+    color: white !important;
+  }
+
+  .votre_commande {
+    text-align: center !important;
+    font-size: 1.5em !important;
+    padding-top: 0px !important;
+  }
+
+  /*Formulaire Commander quantite*/
+
+  #wpcf7-f322-p25-o1 {
+    display: flex;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 60px;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite .label {
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .quantite {
+    display: flex;
+    gap: 10px;
+    width: 192px;
+  }
+  .wpcf7-f260-p27-o1 .wpcf7-text {
+    width: 100%;
+  }
+
+  #wpcf7-f260-p27-o1 .wpcf7-textarea {
+    width: 100%;
+  }
+
+  /*fomulaire commander livraison*/
+
+  #formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #formulaire .section_1 {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+  }
+
+  #formulaire .section_2 {
+    margin-top: 25px !important;
+  }
+
+  #formulaire label {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+
+  #formulaire input {
+    background: #ffffff;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"] {
+    display: block;
+    margin: 40px auto;
+    width: 198px;
+    height: 55px;
+    color: white;
+    background: #e0b9b4;
+    border-radius: 5px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"]:hover {
+    background: #c02e44;
+  }
+
+  /*FOOTER*/
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    grid-row-gap: 0px !important;
+  }
+}
+
+/*
+@media screen and (min-width: 782px) and (max-width: 1024px) {
+
+  .titre_banniere {
+    font-size: 1.99rem !important;
+  }
+
+  .testimonial_name {
+    text-align: center;
+    margin-top: 20px !important;
+  }
+
+  .testimonial_text {
+    text-align: center;
+    font-size: 1em !important;
+  }
+
+  .testimonial_media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial_media > figure > img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+}
+
+*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*ACCUEIL*/
+
+  .wp-block-kadence-rowlayout .kt-row-column-wrap.kb-theme-content-width {
+    padding: 0;
+  }
+
+  .testimonial_column {
+    width: 100%;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .testimonial_title {
+    padding-top: 80px !important;
+  }
+
+  .testimonial_name {
+    font-size: 2.25em !important;
+  }
+
+  .testimonial_text {
+    font-size: 1em !important;
+  }
+
+  .testimonial_media > figure > img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+
+  .testimonial_media {
+    padding-bottom: 30px !important;
+  }
+
+  h1.titre_accueil {
+    font-size: 2.3rem !important;
+    width: 90%;
+    margin: 0 auto !important;
+  }
+
+  h2.titre_accueil_02,
+  h2.testimonial_title {
+    font-size: 2.3em !important;
+  }
+
+  .wp-block-buttons.is-vertical > .wp-block-button:last-child {
+    margin-bottom: 30px !important;
+  }
+
+  .kb-row-layout-wrap.wp-block-kadence-rowlayout.kb-row-layout-id_835858-64 {
+    margin-top: -150px !important;
+  }
+
+  /*NOUS RENCONTRER*/
+
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -100px;
+  }
+
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 2.125em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
+
+  .rencontrer_text {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+
+  .rencontrer_top_flower > figure > img {
+    width: 57% !important;
+    position: relative;
+    left: -544px;
+    top: -16px;
+  }
+
+  .feuille_og img {
+    margin-left: 69px;
+  }
+
+  .kadence-column_b126e6-3d > .kt-inside-inner-col {
+    background-size: 26% auto !important;
+    background-position: 17% 80% !important;
+  }
+
+  /* formulaire*/
+  #wpcf7-f260-p27-o1 .wpcf7-form {
+    margin: 0 auto;
+    /*width: 50%;*/
+    margin-bottom: 60px;
+  }
+
+  /*COMMANDER */
+
+  #wpcf7-f376-p25-o1 {
+    width: 99%;
+  }
+
+  #wpcf7-f376-p25-o1 .form_quantite {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quantite {
+    display: flex;
+    gap: 10px;
+    width: 162px;
+    /*width:23%*/
+  }
+
+  .quantite input[type="number"] {
+    width: 95px;
+  }
+
+  .quantite input[type="submit"] {
+    width: 65px;
+  }
+
+  /*formulaire Livraison*/
+
+  #formulaire .section_1 {
+    width: 50%;
+    padding-right: 30px;
+  }
+
+  #formulaire .section_2 {
+    width: 50%;
+    padding-left: 30px;
+  }
+
+  #wpcf7-f322-p25-o2 input[type="submit"] {
+    margin-top: 80px !important;
+  }
+
+  /*FOOTER*/
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0 !important;
+    grid-row-gap: 0px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonial_column {
+    width: 100%;
+  }
+
+  .testimonial_title {
+    padding-top: 80px !important;
+  }
+
+  .testimonial_name {
+    font-size: 1.35em !important;
+    margin-top: -25px !important;
+  }
+
+  .testimonial_text {
+    font-size: 1em !important;
+  }
+
+  .testimonial_media > figure > img {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding-bottom: 35px !important;
+  }
+
+  .testimonial_media {
+    padding-bottom: 30px !important;
+  }
+
+  /*NOUS RENCONTRER*/
+  /*
+  .rencontrer_section {
+    width: 100% !important;
+    margin-top: -100px;
+  }
+
+  .rencontrer_titre {
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-size: 2.125em !important;
+    padding-top: 0 !important;
+    padding-bottom: 40px;
+  }
+
+  .rencontrer_text {
+    width: 72%;
+    margin: 0 auto;
+    margin-top: -25px !important;
+  }
+
+  .rencontrer_top_flower > figure > img {
+    width: 57% !important;
+    position: relative;
+    left: -682px;
+    top: -16px;
+  }
+
+  .feuille_og img {
+    margin-left: 69px;
+  }
+
+  .kadence-column_b126e6-3d > .kt-inside-inner-col {
+    background-size: 15% auto !important;
+    background-position: 29% 82% !important;
+  }
+/**/
+
+  .kadence-column_b126e6-3d > .kt-inside-inner-col {
+    background-size: 14% auto;
+    background-position: 36% 82%;
+  }
+
+  /*FOOTER*/
+
+  .site-middle-footer-inner-wrap {
+    padding-top: 0 !important;
+    grid-row-gap: 0px !important;
+  }
+}
+
+@media screen and (min-width: 1219px) and (max-width: 1400px) {
+  .gout_section,
+  .kadence-column_5b93be-9c {
+    margin-left: 18% !important;
+    margin-right: 18% !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1219px) {
+  .gout_section,
+  .kadence-column_5b93be-9c {
+    margin-left: 12% !important;
+    margin-right: 11% !important;
+  }
+}
+
+/* affichage des label du formulaire uniquement sur mobile*/
+@media screen and (min-width: 764px) {
+  .form_quantite .label {
+    display: none;
+  }
+}
+
+
+
+
+
+<div class="form_quantite">
+
+  <div class ="label"><label> Fraise </label></div>
+
+    <div class="quantite ">
+            <div class="number">
+
+            [number fraise min:0 max:200 "0" ]
+            <div class="boutons">
+              <button type="button">+</button>
+              <button type="button">-</button>
+            </div>
+            </div>
+            [submit "ok"]
+
+    </div>
+
+  <div class ="label"><label> Pamplemousse </label></div>
+
+    <div class="quantite">
+
+            [number framboise min:0 max:200 "0" ]
+
+            [submit "ok"]
+
+     </div>
+
+<div class ="label"><label> Framboise </label></div>
+
+    <div class="quantite">
+
+
+            [number pamplemousse min:0 max:200 "0" ]
+
+
+
+            [submit "ok"]
+
+
+    </div>
+
+<div class ="label"><label> Citron </label></div>
+    <div class="quantite">
+
+
+            [number citron min:0 max:200 "0" ]
+
+
+
+
+            [submit "ok"]
+
+
+
+    </div>
+
+</div>
