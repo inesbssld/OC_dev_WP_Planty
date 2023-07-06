@@ -1,0 +1,371 @@
+0000.000 (0) Opened log file at time: Wed, 05 Jul 2023 07:16:35 +0000 on http://localhost:8888/Planty
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.6 WP: 6.2.2 PHP: 7.4.33 (apache2handler, Darwin MBP-de-Ines.Home 22.3.0 Darwin Kernel Version 22.3.0: Mon Jan 30 20:38:37 PST 2023; root:xnu-8792.81.3~2/RELEASE_ARM64_T6000 arm64) MySQL: 5.7.39 (max packet size=4194304) WPLANG: fr_FR Server: Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/7.4.33 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 51.2M | 52.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 85432.4 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.006 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.007 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1688461935, seconds_ago=79460)
+0000.009 (0) Set semaphore last lock (fd) time to 2023-07-05 07:16:35
+0000.009 (0) Semaphore lock (fd) complete
+0000.011 (0) Backup run: resumption=0, nonce=3bc8af585a89, file_nonce=3bc8af585a89 begun at=1688541395 (0s ago), job type=backup
+0000.012 (0) Scheduling a resumption (1) after 300 seconds (1688541695) in case this run gets aborted
+0000.023 (0) Checking if we have a zip executable available
+0000.024 (0) Testing: /usr/bin/zip
+0000.033 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.034 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.035 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.041 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.042 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.048 (0) Working binary zip found: /usr/bin/zip
+0000.049 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.049 (0) Creation of backups of directories: beginning
+0000.050 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.161 (0) Total entities for the zip file: 740 directories, 3772 files (0 skipped as non-modified), 72.1 MB
+0000.164 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.166 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.167 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.169 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.171 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.173 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.175 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.176 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.178 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.180 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.180 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (2.7 MB, 3772 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.317 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: size is now: 1.40 MB
+0000.319 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1100 files added (on-disk size: 1400.4 KB)
+0000.321 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1200 files added (on-disk size: 1400.4 KB)
+0000.323 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1300 files added (on-disk size: 1400.4 KB)
+0000.324 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1400 files added (on-disk size: 1400.4 KB)
+0000.326 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1500 files added (on-disk size: 1400.4 KB)
+0000.328 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1600 files added (on-disk size: 1400.4 KB)
+0000.330 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1700 files added (on-disk size: 1400.4 KB)
+0000.331 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1800 files added (on-disk size: 1400.4 KB)
+0000.331 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 3772 files batched, 800 (1801) added so far); re-opening (prior size: 1400.4 KB)
+0001.253 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: size is now: 11.70 MB
+0001.254 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.6 s, rate: 15572.9 KB/s)
+0001.255 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6645920276642, normalised_time=1.6438847512213, max_time=1.2540500164032, data points known=1, old_max_bytes=26214400, new_max_bytes=95679700)
+0001.257 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 1900 files added (on-disk size: 11950.5 KB)
+0001.258 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2000 files added (on-disk size: 11950.5 KB)
+0001.260 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2100 files added (on-disk size: 11950.5 KB)
+0001.262 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2200 files added (on-disk size: 11950.5 KB)
+0001.264 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2300 files added (on-disk size: 11950.5 KB)
+0001.266 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2400 files added (on-disk size: 11950.5 KB)
+0001.268 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2500 files added (on-disk size: 11950.5 KB)
+0001.270 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2600 files added (on-disk size: 11950.5 KB)
+0001.271 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2700 files added (on-disk size: 11950.5 KB)
+0001.273 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2800 files added (on-disk size: 11950.5 KB)
+0001.274 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (30.7 MB, 3772 files batched, 1001 (2802) added so far); re-opening (prior size: 11950.5 KB)
+0002.011 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: size is now: 24.40 MB
+0002.014 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 2900 files added (on-disk size: 25032.4 KB)
+0002.016 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3000 files added (on-disk size: 25032.4 KB)
+0002.018 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3100 files added (on-disk size: 25032.4 KB)
+0002.020 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3200 files added (on-disk size: 25032.4 KB)
+0002.021 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3300 files added (on-disk size: 25032.4 KB)
+0002.023 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3400 files added (on-disk size: 25032.4 KB)
+0002.025 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3500 files added (on-disk size: 25032.4 KB)
+0002.027 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3600 files added (on-disk size: 25032.4 KB)
+0002.029 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.tmp: 3700 files added (on-disk size: 25032.4 KB)
+0002.503 (0) Creating zip file manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.list-temp.tmp)
+0002.512 (0) Successfully created zip file manifest (size: 326174)
+0002.898 (0) Created plugins zip (0) - 29018.1 KB in 2.8 s (10193 KB/s) (sha1: 49017b6fcbe0f7f41356b126da68bfdd05c7df29, sha256: d963d7fef5d1825ad43f89341b02308802a960724e8754d0115c132afd3bb82c)
+0002.903 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0002.903 (0) No remote despatch: user chose no remote backup service
+0002.903 (0) Recording as successfully uploaded: backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip
+0002.904 (0) Deleting zip manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip.list.tmp)
+0002.905 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0002.906 (0) Number of backup sets in history: 2; groups (db): 1
+0002.906 (0) Examining (for databases) backup set with group_id=0, nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0002.906 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.907 (0) Examining (for databases) backup set with group_id=0, nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0002.907 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.907 (0) Number of backup sets in history: 2; groups (files): 1
+0002.907 (0) Examining (for files) backup set with nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0002.907 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.907 (0) Examining (for files) backup set with nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0002.907 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0002.908 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0002.909 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.931 (0) Total entities for the zip file: 141 directories, 665 files (0 skipped as non-modified), 10.4 MB
+0002.933 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.934 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.936 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.937 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.939 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.941 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.195 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.tmp: size is now: 4.10 MB
+0003.208 (0) Creating zip file manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.list-temp.tmp)
+0003.210 (0) Successfully created zip file manifest (size: 46060)
+0003.267 (0) Created themes zip (0) - 4238.2 KB in 0.4 s (11878 KB/s) (sha1: bbb6b73a132e5c3db59f45950fc537c6c94ef859, sha256: 19e825131f8ab771a9d3cc0f6ebb51ce1c8a1a32e5289aba87e7319f71293254)
+0003.269 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.269 (0) No remote despatch: user chose no remote backup service
+0003.270 (0) Recording as successfully uploaded: backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip
+0003.270 (0) Deleting zip manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip.list.tmp)
+0003.271 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.271 (0) Number of backup sets in history: 2; groups (db): 1
+0003.271 (0) Examining (for databases) backup set with group_id=0, nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0003.271 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.272 (0) Examining (for databases) backup set with group_id=0, nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0003.272 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.272 (0) Number of backup sets in history: 2; groups (files): 1
+0003.272 (0) Examining (for files) backup set with nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0003.272 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.272 (0) Examining (for files) backup set with nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0003.272 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.272 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0003.274 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.274 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/Planty/wp-content/uploads
+0003.275 (0) finding files: ithemes-security: adding to list (1)
+0003.275 (0) finding files: 2023: adding to list (2)
+0003.276 (0) finding files: kadence_blocks_library: adding to list (3)
+0003.276 (0) finding files: wpcf7_uploads: adding to list (4)
+0003.276 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.281 (0) Total entities for the zip file: 8 directories, 121 files (0 skipped as non-modified), 34.2 MB
+0003.283 (0) Zip: backup_2023-07-05-0916_Planty_3bc8af585a89-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.538 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-uploads.zip.tmp: size is now: 18.80 MB
+0003.541 (0) Creating zip file manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-uploads.zip.list-temp.tmp)
+0003.542 (0) Successfully created zip file manifest (size: 6835)
+0003.800 (0) Created uploads zip (0) - 19286.4 KB in 0.5 s (36873.9 KB/s) (sha1: 3d352fe007f59095aa4ccf5ec6ce55943226f78d, sha256: 1bc5620156de0ed699e4360a7b110ca6fd42ddc536d08ea50eb0b8aba53c8da2)
+0003.801 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.802 (0) No remote despatch: user chose no remote backup service
+0003.802 (0) Recording as successfully uploaded: backup_2023-07-05-0916_Planty_3bc8af585a89-uploads.zip
+0003.803 (0) Deleting zip manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-uploads.zip.list.tmp)
+0003.803 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.804 (0) Number of backup sets in history: 2; groups (db): 1
+0003.804 (0) Examining (for databases) backup set with group_id=0, nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0003.804 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.804 (0) Examining (for databases) backup set with group_id=0, nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0003.804 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.804 (0) Number of backup sets in history: 2; groups (files): 1
+0003.805 (0) Examining (for files) backup set with nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0003.805 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.805 (0) Examining (for files) backup set with nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0003.805 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.805 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0003.807 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.807 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.808 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/Planty/wp-content
+0003.808 (0) finding files: upgrade: skipping: excluded by options
+0003.808 (0) finding files: .DS_Store: adding to list (1)
+0003.808 (0) finding files: index.php: adding to list (2)
+0003.808 (0) finding files: plugins: skipping: this is the plugins directory
+0003.809 (0) finding files: ewww: adding to list (3)
+0003.809 (0) finding files: uploads: skipping: this is the uploads directory
+0003.809 (0) finding files: updraft: skipping: this is the updraft directory
+0003.809 (0) finding files: languages: adding to list (4)
+0003.810 (0) finding files: themes: skipping: this is the themes directory
+0003.812 (0) Total entities for the zip file: 4 directories, 70 files (0 skipped as non-modified), 3.3 MB
+0003.919 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-others.zip.tmp: size is now: 1.00 MB
+0003.921 (0) Creating zip file manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-others.zip.list-temp.tmp)
+0003.921 (0) Successfully created zip file manifest (size: 4061)
+0003.937 (0) Created others zip (0) - 1032.6 KB in 0.1 s (8182.4 KB/s) (sha1: 4f47235dc88938119103037aec7adecad3cb31d6, sha256: d5644c0f94f08de2b950d25645dcac863508471be693724dfea91df40575f38d)
+0003.938 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.939 (0) No remote despatch: user chose no remote backup service
+0003.939 (0) Recording as successfully uploaded: backup_2023-07-05-0916_Planty_3bc8af585a89-others.zip
+0003.939 (0) Deleting zip manifest (backup_2023-07-05-0916_Planty_3bc8af585a89-others.zip.list.tmp)
+0003.940 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.941 (0) Number of backup sets in history: 2; groups (db): 1
+0003.941 (0) Examining (for databases) backup set with group_id=0, nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0003.941 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.941 (0) Examining (for databases) backup set with group_id=0, nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0003.941 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.942 (0) Number of backup sets in history: 2; groups (files): 1
+0003.942 (0) Examining (for files) backup set with nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0003.942 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.942 (0) Examining (for files) backup set with nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0003.942 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.942 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0003.945 (0) Saving backup status to database (elements: 8)
+0003.946 (0) Beginning creation of database dump (WordPress DB)
+0003.946 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0003.957 (0) Table wp_options: Total expected rows (via COUNT): 259
+0003.957 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.961 (0) Table wp_options: Rows added in this batch (next record: 1658): 255 (uncompressed bytes in this segment=56995) in 0.00 seconds
+0003.963 (0) Table wp_options: finishing file(s) (2, 12.2 KB)
+0003.964 (0) Table wp_users: Total expected rows (via COUNT): 1
+0003.964 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.965 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1384) in 0.00 seconds
+0003.967 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0003.968 (0) Table wp_usermeta: Total expected rows (via COUNT): 27
+0003.969 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.970 (0) Table wp_usermeta: Rows added in this batch (next record: 30): 27 (uncompressed bytes in this segment=3061) in 0.00 seconds
+0003.972 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0003.974 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0003.975 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0003.977 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0003.978 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0003.978 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.979 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2246) in 0.00 seconds
+0003.980 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0003.981 (0) Table wp_itsec_bans: Total expected rows (via COUNT): 0
+0003.982 (0) Table wp_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0003.983 (0) Table wp_itsec_bans: finishing file(s) (2, 0.4 KB)
+0003.985 (0) Table wp_itsec_dashboard_events: Total expected rows (via COUNT): 2
+0003.985 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.986 (0) Table wp_itsec_dashboard_events: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=992) in 0.00 seconds
+0003.987 (0) Table wp_itsec_dashboard_events: finishing file(s) (2, 0.5 KB)
+0003.989 (0) Table wp_itsec_distributed_storage: Total expected rows (via COUNT): 0
+0003.990 (0) Table wp_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=915) in 0.00 seconds
+0003.992 (0) Table wp_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0003.993 (0) Table wp_itsec_fingerprints: Total expected rows (via COUNT): 0
+0003.994 (0) Table wp_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1223) in 0.00 seconds
+0003.996 (0) Table wp_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0003.997 (0) Table wp_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0003.997 (0) Table wp_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=937) in 0.00 seconds
+0003.998 (0) Table wp_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0003.999 (0) Table wp_itsec_lockouts: Total expected rows (via COUNT): 0
+0004.000 (0) Table wp_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1209) in 0.00 seconds
+0004.001 (0) Table wp_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0004.003 (0) Table wp_itsec_logs: Total expected rows (via COUNT): 18
+0004.004 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.005 (0) Table wp_itsec_logs: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=10157) in 0.00 seconds
+0004.007 (0) Table wp_itsec_logs: finishing file(s) (2, 2.4 KB)
+0004.008 (0) Table wp_itsec_mutexes: Total expected rows (via COUNT): 0
+0004.009 (0) Table wp_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=617) in 0.00 seconds
+0004.010 (0) Table wp_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0004.011 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0004.012 (0) Table wp_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=767) in 0.00 seconds
+0004.013 (0) Table wp_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0004.014 (0) Table wp_itsec_temp: Total expected rows (via COUNT): 0
+0004.014 (0) Table wp_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=920) in 0.00 seconds
+0004.016 (0) Table wp_itsec_temp: finishing file(s) (2, 0.4 KB)
+0004.017 (0) Table wp_itsec_user_groups: Total expected rows (approximate): 0
+0004.018 (0) Table wp_itsec_user_groups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=838) in 0.00 seconds
+0004.019 (0) Table wp_itsec_user_groups: finishing file(s) (2, 0.4 KB)
+0004.020 (0) Table wp_links: Total expected rows (via COUNT): 0
+0004.021 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0004.022 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0004.024 (0) Table wp_postmeta: Total expected rows (via COUNT): 302
+0004.024 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.027 (0) Table wp_postmeta: Rows added in this batch (next record: 377): 302 (uncompressed bytes in this segment=54126) in 0.00 seconds
+0004.029 (0) Table wp_postmeta: finishing file(s) (2, 7.3 KB)
+0004.043 (0) Table wp_posts: Total expected rows (via COUNT): 693
+0004.157 (0) Table wp_posts: Rows added in this batch (next record: 748): 693 (uncompressed bytes in this segment=7914187) in 0.13 seconds
+0004.160 (0) Table wp_posts: finishing file(s) (2, 150.4 KB)
+0004.161 (0) Table wp_term_relationships: Total expected rows (approximate): 7
+0004.163 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 7 (uncompressed bytes in this segment=780) in 0.00 seconds
+0004.164 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0004.166 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0004.166 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.167 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1019) in 0.00 seconds
+0004.169 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0004.171 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0004.171 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0004.173 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0004.174 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0004.175 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.175 (0) Table wp_terms: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=844) in 0.00 seconds
+0004.177 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0004.178 (0) Table wp_ewwwio_images: Total expected rows (via COUNT): 144
+0004.178 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.182 (0) Table wp_ewwwio_images: Rows added in this batch (next record: 154): 144 (uncompressed bytes in this segment=27974) in 0.00 seconds
+0004.183 (0) Table wp_ewwwio_images: finishing file(s) (2, 4.8 KB)
+0004.184 (0) Table wp_ewwwio_queue: Total expected rows (via COUNT): 0
+0004.185 (0) Table wp_ewwwio_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.00 seconds
+0004.186 (0) Table wp_ewwwio_queue: finishing file(s) (2, 0.4 KB)
+0004.187 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_options.table.tmpr1659.gz (1/25/fopen): adding to final database dump
+0004.187 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_options.table.gz (2/25/fopen): adding to final database dump
+0004.187 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_users.table.tmpr2.gz (3/25/fopen): adding to final database dump
+0004.188 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_users.table.gz (4/25/fopen): adding to final database dump
+0004.188 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_usermeta.table.tmpr31.gz (5/25/fopen): adding to final database dump
+0004.188 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_usermeta.table.gz (6/25/fopen): adding to final database dump
+0004.188 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_commentmeta.table.tmpr0.gz (7/25/fopen): adding to final database dump
+0004.188 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_commentmeta.table.gz (8/25/fopen): adding to final database dump
+0004.189 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_comments.table.tmpr2.gz (9/25/fopen): adding to final database dump
+0004.189 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_comments.table.gz (10/25/fopen): adding to final database dump
+0004.189 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_bans.table.tmpr0.gz (11/25/fopen): adding to final database dump
+0004.189 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_bans.table.gz (12/25/fopen): adding to final database dump
+0004.189 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_dashboard_events.table.tmpr5.gz (13/25/fopen): adding to final database dump
+0004.190 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_dashboard_events.table.gz (14/25/fopen): adding to final database dump
+0004.190 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_distributed_storage.table.tmpr0.gz (15/25/fopen): adding to final database dump
+0004.190 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_distributed_storage.table.gz (16/25/fopen): adding to final database dump
+0004.190 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_fingerprints.table.tmpr0.gz (17/25/fopen): adding to final database dump
+0004.191 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_fingerprints.table.gz (18/25/fopen): adding to final database dump
+0004.191 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_geolocation_cache.table.tmpr0.gz (19/25/fopen): adding to final database dump
+0004.191 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_geolocation_cache.table.gz (20/25/fopen): adding to final database dump
+0004.191 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_lockouts.table.tmpr0.gz (21/25/fopen): adding to final database dump
+0004.191 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_lockouts.table.gz (22/25/fopen): adding to final database dump
+0004.192 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_logs.table.tmpr19.gz (23/25/fopen): adding to final database dump
+0004.192 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_logs.table.gz (24/25/fopen): adding to final database dump
+0004.192 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_mutexes.table.tmpr0.gz (25/25/fopen): adding to final database dump
+0004.192 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_mutexes.table.gz (26/25/fopen): adding to final database dump
+0004.193 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_opaque_tokens.table.tmpr1.gz (27/25/fopen): adding to final database dump
+0004.193 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_opaque_tokens.table.gz (28/25/fopen): adding to final database dump
+0004.193 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_temp.table.tmpr0.gz (29/25/fopen): adding to final database dump
+0004.193 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_temp.table.gz (30/25/fopen): adding to final database dump
+0004.193 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_user_groups.table.tmpr1.gz (31/25/fopen): adding to final database dump
+0004.194 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_itsec_user_groups.table.gz (32/25/fopen): adding to final database dump
+0004.194 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_links.table.tmpr0.gz (33/25/fopen): adding to final database dump
+0004.194 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_links.table.gz (34/25/fopen): adding to final database dump
+0004.194 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_postmeta.table.tmpr378.gz (35/25/fopen): adding to final database dump
+0004.195 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_postmeta.table.gz (36/25/fopen): adding to final database dump
+0004.195 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_posts.table.tmpr749.gz (37/25/fopen): adding to final database dump
+0004.196 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_posts.table.gz (38/25/fopen): adding to final database dump
+0004.197 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_term_relationships.table.tmpr100001.gz (39/25/fopen): adding to final database dump
+0004.197 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_term_relationships.table.gz (40/25/fopen): adding to final database dump
+0004.197 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_term_taxonomy.table.tmpr6.gz (41/25/fopen): adding to final database dump
+0004.198 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_term_taxonomy.table.gz (42/25/fopen): adding to final database dump
+0004.198 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_termmeta.table.tmpr0.gz (43/25/fopen): adding to final database dump
+0004.198 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_termmeta.table.gz (44/25/fopen): adding to final database dump
+0004.198 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_terms.table.tmpr6.gz (45/25/fopen): adding to final database dump
+0004.198 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_terms.table.gz (46/25/fopen): adding to final database dump
+0004.199 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_ewwwio_images.table.tmpr155.gz (47/25/fopen): adding to final database dump
+0004.199 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_ewwwio_images.table.gz (48/25/fopen): adding to final database dump
+0004.199 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_ewwwio_queue.table.tmpr0.gz (49/25/fopen): adding to final database dump
+0004.199 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db-table-wp_ewwwio_queue.table.gz (50/25/fopen): adding to final database dump
+0004.205 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db.gz: finished writing out complete database file (187.2 KB)
+0004.211 (0) Total database tables backed up: 25 (backup_2023-07-05-0916_Planty_3bc8af585a89-db.gz, size: 191850, sha1: fac697459dbb0fabf5cbfebca496ef6b9c0e3d82, sha256: 7378d25e753934a6bea80afb9f197c5a059186f653fc84de791bf51ac179b0ad)
+0004.213 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-plugins.zip: plugins: This file has already been successfully uploaded
+0004.214 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-themes.zip: themes: This file has already been successfully uploaded
+0004.214 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-uploads.zip: uploads: This file has already been successfully uploaded
+0004.214 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-others.zip: others: This file has already been successfully uploaded
+0004.214 (0) backup_2023-07-05-0916_Planty_3bc8af585a89-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.214 (0) Saving backup history. Total backup size: 52.5 MB
+0004.215 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0004.216 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.217 (0) No remote despatch: user chose no remote backup service
+0004.217 (0) Recording as successfully uploaded: backup_2023-07-05-0916_Planty_3bc8af585a89-db.gz
+0004.218 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.218 (0) Number of backup sets in history: 3; groups (db): 1
+0004.219 (0) Examining (for databases) backup set with group_id=0, nonce=3bc8af585a89, datestamp=1688541395 (Jul 05 2023 07:16:35)
+0004.219 (0) This backup set is the backup set just made, so will not be deleted.
+0004.219 (0) Examining (for databases) backup set with group_id=0, nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0004.219 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.219 (0) Examining (for databases) backup set with group_id=0, nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0004.219 (0) 1688368484: db: this set includes a database (backup_2023-07-03-0914_Planty_4da41c6f7cc9-db.gz); db count is now 2
+0004.219 (0) 1688368484: db: over retain limit (2); will delete this database
+0004.219 (0) Delete file: backup_2023-07-03-0914_Planty_4da41c6f7cc9-db.gz, service=none
+0004.219 (0) Deleting local copy (backup_2023-07-03-0914_Planty_4da41c6f7cc9-db.gz)
+0004.221 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0004.221 (0) Number of backup sets in history: 3; groups (files): 1
+0004.221 (0) Examining (for files) backup set with nonce=3bc8af585a89, datestamp=1688541395 (Jul 05 2023 07:16:35)
+0004.221 (0) This backup set is the backup set just made, so will not be deleted.
+0004.221 (0) This backup set is the backup set just made, so will not be deleted.
+0004.221 (0) This backup set is the backup set just made, so will not be deleted.
+0004.221 (0) This backup set is the backup set just made, so will not be deleted.
+0004.222 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.222 (0) Examining (for files) backup set with nonce=4e2d721f2cc8, datestamp=1688461935 (Jul 04 2023 09:12:15)
+0004.222 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.222 (0) Examining (for files) backup set with nonce=4da41c6f7cc9, datestamp=1688368484 (Jul 03 2023 07:14:44)
+0004.222 (0) plugins: over retain limit (2); will delete this file entity
+0004.222 (0) themes: over retain limit (2); will delete this file entity
+0004.222 (0) uploads: over retain limit (2); will delete this file entity
+0004.222 (0) others: over retain limit (2); will delete this file entity
+0004.222 (0) Delete file: backup_2023-07-03-0914_Planty_4da41c6f7cc9-plugins.zip, service=none
+0004.222 (0) Deleting local copy (backup_2023-07-03-0914_Planty_4da41c6f7cc9-plugins.zip)
+0004.224 (0) Delete file: backup_2023-07-03-0914_Planty_4da41c6f7cc9-themes.zip, service=none
+0004.225 (0) Deleting local copy (backup_2023-07-03-0914_Planty_4da41c6f7cc9-themes.zip)
+0004.225 (0) Delete file: backup_2023-07-03-0914_Planty_4da41c6f7cc9-uploads.zip, service=none
+0004.225 (0) Deleting local copy (backup_2023-07-03-0914_Planty_4da41c6f7cc9-uploads.zip)
+0004.225 (0) Delete file: backup_2023-07-03-0914_Planty_4da41c6f7cc9-others.zip, service=none
+0004.226 (0) Deleting local copy (backup_2023-07-03-0914_Planty_4da41c6f7cc9-others.zip)
+0004.227 (0) This backup set is now empty; will remove from history
+0004.227 (0) Deleting log file (log.4da41c6f7cc9.txt)
+0004.228 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0004.229 (0) Resume backup (3bc8af585a89, 0): finish run
+0004.229 (0) Decremented the semaphore (fd) by 1
+0004.230 (0) Semaphore (fd) unlocked
+0004.230 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.231 (0) No email will/can be sent - the user has not configured an email address.
+0004.231 (0) The backup apparently succeeded and is now complete
